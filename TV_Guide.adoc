@@ -5,20 +5,21 @@ v.1.0, 16.03.2015
 
 //to include image use only one collon instead of two (: != ::)
 //*text* - bold
-//[green]#text# - green color
+//#text# - green color
 //2+|
 
 
-[red]#red text# [yellow-background]#on yellow#
-[big]#large# [red yellow-background big]*all bold*
-
-
 |====
-^|[big red yellow-background]*Channel* ^|12am ^|12.30am ^|1am ^|1:30am ^|2am ^|2:30am ^|3am ^|3:30am ^|4am ^|4:30am ^|5am ^|5:30am ^|6am ^|6:30am ^|7am ^|7:30am ^|8am ^|8:30am ^|9am ^|9:30am ^|10am ^|10:30am ^|11am ^|11:30am
-^|image:http://services.yourtv.com.au/static/media/372411_abctv_logo_rgb_blue_custom.png[1] |[yellow-background]+*11:48pm*+ [green]#*Life's Too Short*# +*12:18am*+ [green]#*Bored to Death*# ^*The Case of the Grievous Clerical Error!*^ 2+|+*12:45am*+ [green]#*Parliament Question Time*# 2+|+*2:45am*+ [green]#*William Yang's Friends of Dorothy*# 3+|+*1:45am*+ [green]#*Muse of Fire*# 2+|+*4:10am*+ [green]#*Life's Too Short*# |+*5:01am*+ [green]#*Can We Help?*# |+*5:30am*+ [green]#*Eggheads*# ^*The Lettermen*^ 6+|+*6am*+ [green]#*ABC News Breakfast*# 2+|+*9am*+ [green]#*ABC News Mornings*# |+*10am*+ [green]#*One Plus One*# 2+|+*10:30am*+ [green]#*How We Got to Now*# |+*11:30am*+ [green]#*Eggheads*#
-^|image:http://services.yourtv.com.au/static/media/383027_abckids_abc2_freeview_type2.jpg[2] |[yellow-background]+*11:42pm*+ [green]#*Good Game*# +*12:13am*+ [green]#*That '70s Show*# |||||||||||||||||||||||
-^|image:http://services.yourtv.com.au/static/media/270210_abc-3.gif[3] 12+|[yellow-background]+*10:29pm*+  [green]#*Station Close*# |||||||||||||||||||||||
+^|*Channel* ^|*12~am~* ^|*12.30~am~* ^|*1~am~* ^|*1:30~am~* ^|*2~am~* ^|*2:30~am~* ^|*3~am~* ^|*3:30~am~* ^|*4~am~* ^|*4:30~am~* ^|*5~am~* ^|*5:30~am~* ^|*6~am~* ^|*6:30~am~* ^|*7~am~* ^|*7:30~am~* ^|*8~am~* ^|*8:30~am~* ^|*9~am~* ^|*9:30~am~* ^|*10~am~* ^|*10:30~am~* ^|*11~am~* ^|*11:30~am~*
+^|image:http://services.yourtv.com.au/static/media/372411_abctv_logo_rgb_blue_custom.png[1] |*Life's Too Short* +*12:18am*+ *Bored to Death* ^*The Case of the Grievous Clerical Error!*^ 2+|+*12:45am*+ *Parliament Question Time* 2+|+*2:45am*+ *William Yang's Friends of Dorothy* 3+|+*1:45am*+ *Muse of Fire* 2+|+*4:10am*+ *Life's Too Short* |+*5:01am*+ *Can We Help?* |+*5:30am*+ *Eggheads* ^*The Lettermen*^ 6+|+*6am*+ *ABC News Breakfast* 2+|+*9am*+ *ABC News Mornings* |+*10am*+ *One Plus One* 2+|+*10:30am*+ *How We Got to Now* |+*11:30am*+ *Eggheads*
+^|image:http://services.yourtv.com.au/static/media/383027_abckids_abc2_freeview_type2.jpg[2] |+*11:42pm*+ *Good Game* +*12:13am*+ *That '70s Show* 2+|+*12:35am*+ *Don't Just Stand There. I'm Having Your Baby*  ^*Reece & Ryan*^ 2+|+*1:35am*+ *Total Wipeout* |+*2:30am*+ *Red Dwarf* ^*Fathers And Suns*^ |+*3:02am*+ *ABC News Update* +*3:03am*+ *Station Close*|||||||||||||||||||
+^|image:http://services.yourtv.com.au/static/media/270210_abc-3.gif[3] 12+|+*10:29pm*+  *Station Close* |||||||||||||||||||||||
 
 
+,===
+a,b,c
+,===
 
-|====
+:===
+a:b:c
+:===
