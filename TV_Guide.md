@@ -21,6 +21,3 @@ Programme
 
 [FALUN2015_logo1]:https://cloud.githubusercontent.com/assets/5722673/6686816/38b4d076-cca5-11e4-9b7e-49bfb4e2616c.jpg
 [FALUN2015_logo2]:https://cloud.githubusercontent.com/assets/5722673/6686885/e0274640-cca5-11e4-8444-2469071f5c21.jpg
-
-
-This is a markdown paragraph. Etc.
