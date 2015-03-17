@@ -1,3 +1,8 @@
+Programme
+=========
+###**FIS Nordic World Ski Championships _Falun2015_**
+####18.02.2015 – 01.03.2015
+---
 |![alt text][FALUN2015_logo1]|![alt text][FALUN2015_logo2]|
 |:---------------------------|:---------------------------|
 |:o:**Wednesday** <br> **_18.02.2015_**|<ul><li>**13:30 CC** - Qualification, 5 km, Ladies (F)</li> <li>**15:00 CC** - Qualification, 10km, Men (F)</li> <li>**19:00** - **Opening Ceremony**, [more information](http://falun2015.com/en/opening-ceremony-ticket-sales/ "Opening Ceremony")</li></ul>|
@@ -12,9 +17,7 @@
 |:o:**Friday** <br> **_27.02.2015_**|<ul><li>**13:30 CC** - Relay 4x10 km, Men</li> <li>**19:00** - Medal Award Ceremony and entertainment at Medal Plaza</li></ul>|
 |:o:**Saturday** <br> **_28.02.2015_**|<ul><li>**09:00 NC** - Sprint, Team, HS 134 (*large hill*), Trial Round</li> <li>**10:00 NC** - Sprint, Team, HS 134 (*large hill*)</li> <li>**13:00 CC** - 30 km, Mass Start Ladies (C)</li> <li>**16:00 NC** - Sprint, Team, 2x7,5km</li> <li>**16:00 JP** HS 134 (*large hill*), Team, Trial Round, Men</li> <li>**17:00 JP** HS 134 (*large hill*), Team, Men</li> <li>**19:00** - Medal Award Ceremony and entertainment at Medal Plaza</li></ul>|
 |:o:**Sunday** <br> **_01.03.2015_**|<ul><li>**13:30 CC** - 50 km, Mass Start, Men (C)</li> <li>**16:00** - Medal & Closing Ceremony</ul></li>|
-
-
-|**JP** = Ski Jumping, **CC** = Cross Country Skiing, **NC** = Nordic Combined|
+|![alt text][FALUN2015_logo1]|:x:**JP** = _Ski Jumping_ :x:**CC** = _Cross Country Skiing_ :x:**NC** = _Nordic Combined_|
 
 [FALUN2015_logo1]:https://cloud.githubusercontent.com/assets/5722673/6686816/38b4d076-cca5-11e4-9b7e-49bfb4e2616c.jpg
 [FALUN2015_logo2]:https://cloud.githubusercontent.com/assets/5722673/6686885/e0274640-cca5-11e4-8444-2469071f5c21.jpg
