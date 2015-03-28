@@ -3,10 +3,6 @@ AsciiDoc
 Rafał Krzychowiec AKA StringHead <stringhead.github@gmail.com>
 v.1.0, 16.03.2015
 
-//to include image use only one collon instead of two (: != ::)
-//*text* - bold
-//#text# - green color
-//2+|
 
 .TV Guide
 |==================================
@@ -15,31 +11,3 @@ v.1.0, 16.03.2015
 ^|image:http://services.yourtv.com.au/static/media/383027_abckids_abc2_freeview_type2.jpg[2] |+*11:42pm*+ http://www.yourtv.com.au/guide/event.aspx?program_id=195115&event_id=67053422&region_id=73[*Good Game*] +*12:13am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=151524&event_id=67053423&region_id=73[*That '70s Show*] 2+|+*12:35am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=297324&event_id=67053424&region_id=73[*Don't Just Stand There. I'm Having Your Baby*]  ^*Reece & Ryan*^ 2+|+*1:35am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=252337&event_id=67053425&region_id=73[*Total Wipeout*] |+*2:30am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=126646&event_id=67053426&region_id=73[*Red Dwarf*] ^*Fathers And Suns*^ 2+|+*3:02am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=143853&event_id=67053427&region_id=73[*ABC News Update*] +*3:03am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=128674&event_id=67053428&region_id=73[*Station Close*] 2+|+*4am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=128674&event_id=67053429&region_id=73[*Station Close*] |+*5am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=298546&event_id=67053430&region_id=73[*What's The Big Idea?*] +*5:06am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=284839&event_id=67053431&region_id=73[*Kioka*] +*5:15am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=274726&event_id=67053432&region_id=73[*Franklin & Friends*] |+*5:39am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=311120&event_id=67053433&region_id=73[*Ella the Elephant*] +*5:52am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=194404&event_id=67053434&region_id=73[*Five Minutes More*] |+*6am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=131471&event_id=67067158&region_id=73[*Play School*] +*6:24am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=291537&event_id=67067159&region_id=73[*Bananas in Pyjamas*] |+*6:30am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=303895&event_id=67067160&region_id=73[*Elmo the Musical*] +*6:42am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=312197&event_id=67067161&region_id=73[*Lah-Lah's Adventures*] +*6:55am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=183441&event_id=67067162&region_id=73[*Charlie and Lola*] |+*7:07am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=319168&event_id=67067163&region_id=73[*Bing*] +*7:15am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=278487&event_id=67067164&region_id=73[*Mike the Knight*] |+*7:31am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=244536&event_id=67067165&region_id=73[*Ben and Holly's Little Kingdom*] +*7:43am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=325745&event_id=67067166&region_id=73[*Bubble Bath Bay*] +*7:56am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=172407&event_id=67067167&region_id=73[*Peppa Pig*] |+*8:01am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=255642&event_id=67067168&region_id=73[*Dinosaur Train*] +*8:17am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=152424&event_id=67067169&region_id=73[*Fireman Sam*] |+*8:30am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=235144&event_id=67067170&region_id=73[*Chuggington*] +*8:45am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=302350&event_id=67067171&region_id=73[*Ready, Steady, Wiggle!*] |+*9am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=131519&event_id=67067172&region_id=73[*Seasame Street*] |+*9:30*+ http://www.yourtv.com.au/guide/event.aspx?program_id=131471&event_id=67067173&region_id=73[*Play School*] ^*Going Out*^ |+*10am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=291537&event_id=67067174&region_id=73[*Bananas in Pyjamas*] +*10:13am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=293880&event_id=67067175&region_id=73[*Ha Ha Hairies*] ^*Final*^ +*10:26am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=246942&event_id=67067176&region_id=73[*dirtgirlwork*] ^*Final*^ |+*10:37am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=265162&event_id=67067177&region_id=73[*Little Charley Bear*] +*10:47am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=238468&event_id=67067178&region_id=73[*Timmy Time*] +*10:58am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=194404&event_id=67067179&region_id=73[*Five Minutes More*] |+*11:05*+ http://www.yourtv.com.au/guide/event.aspx?program_id=298755&event_id=67067180&region_id=73[*Mofy*] +*11:11am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=296361&event_id=67067181&region_id=73[*Sarah and Duck*] +*11:19am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=313246&event_id=67067182&region_id=73[*Lilly's Driftwood Bay*] +*11:27am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=233069&event_id=67067183&region_id=73[*Humf*] |+*11:35am*+ http://www.yourtv.com.au/guide/event.aspx?program_id=224206&event_id=67067184&region_id=73[*In the Night Garden*] ^*Over And Under*^
 ^|image:http://services.yourtv.com.au/static/media/270210_abc-3.gif[3] 12+|+*10:29pm*+  *Station Close* |+*6:01am*+ *Arthur* ^*Falafeloshopy/Great Lint Rush*^ +*6:26am*+ *Pearlie* |+*6:40am*+ *Me and My Robot* +*6:53am*+ *Dennis & Gnasher* ^*Dennis jumps The Line/Operation Windbreaker*^ |+*7:18am*+ *Rated A for Awesome* |+*7:31am*+ *SheZow* +*7:45am*+ *Dr. Dimensionpants*|||||||||||||||||||
 |==================================
-
-,===
-a,b,c
-,===
-
-|===
-:a: :b: :c: :d: :e: :f: :g: :h: :i: :j: :k: :l: :m: :n: :o: :p: :q: :r: :s: :t: :u: :v: :w: :x: :y: :z:
-|===
-
-.AsciiDoc source
-[width="70%",format="dsv"]
-|====================================
-root:x:0:0:root:/root:/bin/bash
-daemon:x:1:1:daemon:/usr/sbin:/bin/sh
-bin:|x:2:2:bin:/bin:/bin/sh
-sys:x:3:3:sys:/dev:/bin/sh
-sync:x:4:65534:sync:/bin:/bin/sync
-games:x:5:60:games:/usr/games:/bin/sh
-|====================================
-
-Contacts
-[grid="rows",format="csv"]
-[options="header",cols="^,<,<,<,>"]
-|==========================
-ID,First,Last,Address,Phone
-1,Allen,Dan,Denver,3035551212
-2,Doe,John,"Washington, D.C.",2025551212
-|==========================
