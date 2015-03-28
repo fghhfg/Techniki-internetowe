@@ -7,29 +7,41 @@ PORÓWNANIE
 
 
 +------------------------+----------------------------------+----------------------------------+-------------------------------------------+
-| OPCJE                  | MarkDown                         | AsciiDoc                         | Podgląd                                   |
+| **FORMATTING**         | **MarkDown**                     | **AsciiDoc**                     | **reStructuredText**                      |
 +========================+==================================+==================================+===========================================+
-| Bold                   | \**Bold\**                       | \**Bold\** \ \*Bold\*            | **Bold**                                  |
+| Bold                   | \**Bold\**                       | \**Bold\** \ \*Bold\*            | \**Bold\**                                |
 +------------------------+----------------------------------+----------------------------------+-------------------------------------------+
-| Italic                 | \*Italic\*                       | \_italic\_                       | *Italic*                                  |
+| Italic                 | \*Italic\*                       | \_italic\_                       | \*Italic\*                                |
 +------------------------+----------------------------------+----------------------------------+-------------------------------------------+
-| mono                   | \`Monospace\` / \`Monospace\`    | \+Monospace\+ / \`monospace\`    | ``Monospace``                             |
+| mono                   | \`Monospace\` / \`Monospace\`    | \+Monospace\+ / \`monospace\`    | \``Monospace\``                           |
 +------------------------+----------------------------------+----------------------------------+-------------------------------------------+
-| Link with text         | [AsciiDoc](http://asciidoc.org)  | http://asciidoc.org[AsciiDoc]    | `AsciiDoc <http://www.asciidoc.org/>`_    |   
+| Link with text         | [AsciiDoc](http://asciidoc.org)  | http://asciidoc.org[AsciiDoc]    | \`AsciiDoc <http://www.asciidoc.org/>`_   |   
 +------------------------+----------------------------------+----------------------------------+-------------------------------------------+
-| Link with Alt text     | ![Logo](/images/logo.png)        | image:logo.png[Logo]             |  .. image:: picture.jpeg                  |
-|                        |                                  |                                  |     :height: 100px                        |
-|                        |                                  |                                  |     :width: 200 px                        |
-|                        |                                  |                                  |     :scale: 50 %                          |
-|                        |                                  |                                  |     :alt: Logo                            |
-|                        |                                  |                                  |     :align: right                         |
+| Link with Alt text     | ![Logo](/images/logo.png)        | image:logo.png[Logo]             | | .. image:: picture.jpeg                 |
+|                        |                                  |                                  | |   :height: 100px                        |
+|                        |                                  |                                  | |   :width: 200 px                        |
+|                        |                                  |                                  | |   :scale: 50 %                          |
+|                        |                                  |                                  | |   :alt: Logo                            |
+|                        |                                  |                                  | |   :align: right                         |
 +------------------------+----------------------------------+----------------------------------+-------------------------------------------+
-| Headings               | # h1 --> ###### h6               | == h1 --> ===== h4               |  ==============                           |
-|                        |                                  |                                  |  Document Title                           |
-|                        |                                  |                                  |  ==============                           |
+| Blockquote             | > Quoted text                    | | [quote]                        | | "Quoted text"                           |    
+|                        |                                  | Quoted text                      | --Author                                  |
 +------------------------+----------------------------------+----------------------------------+-------------------------------------------+
-| body row 4             |                                  | - body elements.                 |                                           |
+| Code blocks            | | ```java                        | | [source,java]                  | | .. code:: java                          |
+|                        | | public class Person {          | | --                             | |                                         |
+|                        | | }                              | | public class Person {          | | public class Person {                   |
+|                        | ```                              | | }                              |                                           |
+|                        |                                  | | --                             |                                           |
 +------------------------+----------------------------------+----------------------------------+-------------------------------------------+
-| body row 4             |                                  | - body elements.                 |                                           |
+| Unordered List         | | \* one                         | | \* one                         | | \* one                                  |
+|                        | | * two                          | | \* two                         | | \* two                                  |
+|                        | | (**indent**) * three           | | \** three                      | | (**indent**) \* three                   |
+|                        | | (**indent**) * four            | | \** four                       | | (**indent**) \* four                    |
+|                        | | * five                         | | \* five                        | | \* five                                 |
 +------------------------+----------------------------------+----------------------------------+-------------------------------------------+
-
+| Ordered List           | | 1. one                         | | . one                          | | 1. one                                  |
+|                        | | 2. two                         | | . two                          | | 2. two                                  |
+|                        | | (**indent**) 3. three          | | .. three                       | | (**indent**) 3. three                   |
+|                        | | (**indent**) 4. four           | | .. four                        | | (**indent**) 4. four                    |
+|                        | | 5. five                        | | . five                         | | 5. five                                 |
++------------------------+----------------------------------+----------------------------------+-------------------------------------------+
