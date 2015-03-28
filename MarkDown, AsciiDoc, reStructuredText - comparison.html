@@ -1,41 +1,110 @@
 <!DOCTYPE html>
-<html lang=pl>
+<html lang=PL>
 <head>
 <meta charset=utf-8>
-<title>Porównanie Markdown i AsciiDoc</title>
+<title>Markdown, AsciiDoc, reStructuredText - comparison</title>
 </head>
 <body>
-<table border='1'>
+<table border='3'>
 <tr>
-<th>Opcje</th>
+<th>FORMATTING</th>
 <th>Markdown</th>
 <th>AsciiDoc</th>
+<th>reStructuredText</th>
 </tr>
 <tr>
-<td>Nagłówkia</td>
-<td>h1: <q>#</q> ... h6: <q>######</q></td>
-<td>h1: <q>=</q> ... h6: <q>======</q></td>
-</tr>
-<tr>
-<td><b>Bold</b></td>
-<td><q>*tekst*</q> lub <q>_tekst_</q></td>
-<td><q>*tekst*</q></td>
+<td><strong>Bold</strong></td>
+<td>**Bold**</td>
+<td>**Bold** / *Bold*</td>
+<td>**Bold**</td>
 </tr>
 <tr>
 <td><i>Italic</i></td>
-<td><q>**tekst**</q> lub <q>__tekst__</q></td>
-<td><q>_tekst</q></td>
+<td>*Italic*</td>
+<td>_Italic_</td>
+<td>*Italic*</td>
 </tr>
 <tr>
-<td>Linki</td>
-<td><q>[link](http://link.pl)</q></td>
-<td><q>http://link.pl[Link]</q></td>
+<td><font face="Courier">Monospace</font></td>
+<td>`Monospace`</td>
+<td>+Monospace+ / `Monospace`</td>
+<td>``Monospace``</td>
 </tr>
 <tr>
-<td>Obrazki</td>
-<td><q>![obrazek](git.com/obrazek.jpg)</q></td>
-<td><q>image:obrazek.jpg[tekst]</q></td>
+<td>Link with text</td>
+<td>[AsciiDoc](<a href="http://asciidoc.org/">http://asciidoc.org</a>)</td>
+<td><a href="http://asciidoc.org/">http://asciidoc.org</a>[AsciiDoc]</td>
+<td>'AsciiDoc<br>
+<<a href="http://asciidoc.org/">http://asciidoc.org</a>>`_
 </tr>
+<tr>
+<td>Link with Alt text</td>
+<td>![Logo](/images/logo.png)</td>
+<td>image:logo.png[Logo]</td>
+<td>.. image:: picture.jpeg<br>
+:height: 100px<br>
+:width: 200px<br>
+:scale: 50%<br>
+:alt: Logo<br>
+:align: right</td>
+</tr>
+<tr>
+<td>Blockquote</td>
+<td>Quoted text</td>
+<td>[quote]<br>
+Quoted text</td>
+<td>"Quoted text"<br>
+--Author</td>
+</tr>
+<tr>
+<td>Code blocks</td>
+<td>```java<br>
+public class Person{<br>
+}<br>
+```</td>
+<td>[source.java]<br>
+--<br>
+public class Person{<br>
+}<br>
+--</td>
+<td>.. code:: java<br><br>
+public class Person{</td>
+</tr>
+<tr>
+<td>Unordered List</td>
+<td>* one<br>
+* two<br>
+(<strong>indent</strong>) * three<br>
+(<strong>indent</strong>) * four<br>
+* five</td>
+<td>* one<br>
+* two<br>
+** three<br>
+** four<br>
+* five<br></td>
+<td>* one<br>
+* two<br>
+(<strong>indent</strong>) * three<br>
+(<strong>indent</strong>) * four<br>
+* five</td>
+</tr>
+<tr>
+<td>Ordered List</td>
+<td>1. one<br>
+2. two<br>
+(<strong>indent</strong>) 3. three<br>
+(<strong>indent</strong>) 4. four<br>
+5. five</td>
+<td>. one<br>
+. two<br>
+.. three<br>
+.. four<br>
+. five</td>
+<td>1. one<br>
+2. two<br>
+(<strong>indent</strong>) 3. three<br>
+(<strong>indent</strong>) 4. four<br>
+5. five</td>
 </table>
 </body>
 </html>
