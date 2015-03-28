@@ -11,5 +11,5 @@
 [ wersja w AsciiDoc](https://github.com/StringHead/Techniki-internetowe/blob/master/TV_Guide.adoc)
 
 4. Responsywna strona internetowa oparta o framework Bootstrap:
- * [ link do strony](https://github.com/StringHead/StringHead.github.io)
+ * [ link do strony](http://stringhead.github.io)
  * [ link do repozytorium strony na github](https://github.com/StringHead/StringHead.github.io)
